@@ -1,27 +1,32 @@
 class Store
-  def initialize(number_of_products, currency)
-    @size = number_of_products
-    @products = Array.new
+  attr_reader :product_size
+
+  def initialize(product_size, currency)
+    @product_size = product_size
     @currency = currency
-  end
-
-  def information
-    "number of products: #{@size} currency: #{@currency}"
-  end
-
-  def number_of_maximum_products
-    @size
+    @list_of_products = []
   end
 
   def add_product(product)
-    @products << product if @products.size < @size product
+    @list_of_products << product if store_has_space? && is_valid?(product)
   end
 
-  def list_all_products_name
-    @products.map(&:name)
+
+  def list_of_products
+    @list_of_products
   end
 
-  def show_special_offers
-    @products.map(&:offer).select{|sp| sp != nil}
+  def special_products
+    @list_of_products.map(&:offer).select{|sp| sp != nil}
+  end
+
+  private
+
+  def is_valid?(product)
+    product.money.currency == @currency
+  end
+
+  def store_has_space?
+    @list_of_products.size < @product_size
   end
 end

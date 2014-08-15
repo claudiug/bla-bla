@@ -30,6 +30,8 @@ class Money
 
   private
 
+
+  #TODO move this a new class where should also be parity form money ratio
   def currency_list
     %w(USD EUR GBP JPY AUD INR)
   end

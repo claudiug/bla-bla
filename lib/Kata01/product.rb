@@ -1,12 +1,11 @@
 require_relative '../../lib/Kata01/money'
 class Product
 
-  attr_reader :price, :name, :offer
+  attr_reader :price, :name, :offer, :money
   def initialize
     @price = Money.new.store_price
     @name = 'foo'
     @offer = nil
-    @currency = nil
   end
 
 
@@ -22,10 +21,6 @@ class Product
   def set_price(money)
     @price = money.store_price
     @money = money
-  end
-
-  def product_currency
-    @money.currency #sucks big time
   end
 
   def product_information
