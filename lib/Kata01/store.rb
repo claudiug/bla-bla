@@ -9,6 +9,7 @@ class Store
 
   def add_product(product)
     @list_of_products << product if store_has_space? && is_valid?(product)
+    byebug
   end
 
 

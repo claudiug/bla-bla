@@ -10,17 +10,29 @@ describe Store do
 
   it 'should be able to add a new product for a store' do
     store = Store.new(3, 'EUR')
+    money = Money.new
+    money.currency = 'EUR'
+    money.value = 10.0
     p1 = Product.new
+    p1.set_price(money)
     store.add_product(p1)
     expect(store.list_of_products).to include(p1)
   end
 
   it 'should not be able to add more products if the store limit is exceed' do
     store = Store.new(3, 'EUR')
+    money = Money.new
+    money.currency = 'EUR'
+    money.value = 10.0
     p1 = Product.new
     p2 = Product.new
     p3 = Product.new
     p4 = Product.new
+    p1.set_price(money)
+    p2.set_price(money)
+    p3.set_price(money)
+    p4.set_price(money)
+
     store.add_product(p1)
     store.add_product(p2)
     store.add_product(p3)
