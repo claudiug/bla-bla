@@ -1,0 +1,223 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/statuses/user_timeline.json?claudiuinberlin
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="xtjmMFyBbB2jvM35YDjtu7D1I", oauth_nonce="dqGFYKaoJXZOOwsCFyxOO3xBN06KI5Y5BOVMSyzB90Y",
+        oauth_signature="bDyBEyWBUBCOclwNq0eZnmd05Mg%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1407942646", oauth_token="2617802185-94zZikE7dVDlPBN7beFhngn4t4IkClEeUkflVht",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Length:
+      - '2339'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Wed, 13 Aug 2014 15:10:46 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Wed, 13 Aug 2014 15:10:46 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tfe
+      Set-Cookie:
+      - guest_id=v1%3A140794264675979406; Domain=.twitter.com; Path=/; Expires=Fri,
+        12-Aug-2016 15:10:46 UTC
+      - lang=en
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '180'
+      X-Rate-Limit-Remaining:
+      - '179'
+      X-Rate-Limit-Reset:
+      - '1407943546'
+      X-Transaction:
+      - 8d63f90c11dcaef0
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: UTF-8
+      string: '[{"created_at":"Wed Aug 13 12:50:30 +0000 2014","id":499538484856905728,"id_str":"499538484856905728","text":"offf
+        twitter....\nbyebug) response.body\n\"\u007b\\\"errors\\\":[\u007b\\\"message\\\":\\\"Rate
+        limit exceeded\\\",\\\"code\\\":88\u007d]\u007d\". you make me mock it :\/","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Fri
+        Aug 08 23:35:35 +0000 2014","id":497888887663247360,"id_str":"497888887663247360","text":"http:\/\/t.co\/MNv32DelLp","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/MNv32DelLp","expanded_url":"http:\/\/rails-hosting.com\/Results\/2014\/index.html","display_url":"rails-hosting.com\/Results\/2014\/i\u2026","indices":[0,22]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"und"},{"created_at":"Fri
+        Aug 08 23:13:52 +0000 2014","id":497883419976945665,"id_str":"497883419976945665","text":"!    Unable
+        to connect to @heroku API, please check internet connectivity and try again.
+        #IHATEIT","source":"\u003ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter
+        Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"IHATEIT","indices":[89,97]}],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"heroku","name":"Heroku","id":10257182,"id_str":"10257182","indices":[26,33]}]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Sun
+        Jul 13 17:09:51 +0000 2014","id":488369728269058048,"id_str":"488369728269058048","text":"RT
+        @ChrisGSeaton: How we make @JRuby up to 28x as fast on real-world code with
+        #Truffle http:\/\/t.co\/svBI59T7lY","source":"\u003ca href=\"http:\/\/twitter.com\"
+        rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu
+        Jul 10 15:29:22 +0000 2014","id":487257276794032128,"id_str":"487257276794032128","text":"How
+        we make @JRuby up to 28x as fast on real-world code with #Truffle http:\/\/t.co\/svBI59T7lY","source":"\u003ca
+        href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003eTwitter
+        for Mac\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":952553743,"id_str":"952553743","name":"Chris
+        Seaton","screen_name":"ChrisGSeaton","location":"Manchester, UK","description":"PhD
+        student in languages and parallelism. Oracle Labs VM Research Group. Developer
+        of the first regulated medical phone app in the UK. Opinions are my own.","url":"http:\/\/t.co\/PvELBCnCCZ","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/PvELBCnCCZ","expanded_url":"http:\/\/www.chrisseaton.com","display_url":"chrisseaton.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":264,"friends_count":251,"listed_count":12,"created_at":"Fri
+        Nov 16 22:50:49 +0000 2012","favourites_count":3,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":314,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/2858052559\/0cc0340ddc35aa9beb5b4f8fc493f1f4_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/2858052559\/0cc0340ddc35aa9beb5b4f8fc493f1f4_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/952553743\/1398650922","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":62,"favorite_count":24,"entities":{"hashtags":[{"text":"Truffle","indices":[61,69]}],"symbols":[],"urls":[{"url":"http:\/\/t.co\/svBI59T7lY","expanded_url":"http:\/\/www.chrisseaton.com\/rubytruffle\/pushing-pixels\/","display_url":"chrisseaton.com\/rubytruffle\/pu\u2026","indices":[70,92]}],"user_mentions":[{"screen_name":"jruby","name":"JRuby
+        Dev Team","id":16132186,"id_str":"16132186","indices":[12,18]}]},"favorited":false,"retweeted":true,"possibly_sensitive":false,"lang":"en"},"retweet_count":62,"favorite_count":0,"entities":{"hashtags":[{"text":"Truffle","indices":[79,87]}],"symbols":[],"urls":[{"url":"http:\/\/t.co\/svBI59T7lY","expanded_url":"http:\/\/www.chrisseaton.com\/rubytruffle\/pushing-pixels\/","display_url":"chrisseaton.com\/rubytruffle\/pu\u2026","indices":[88,110]}],"user_mentions":[{"screen_name":"ChrisGSeaton","name":"Chris
+        Seaton","id":952553743,"id_str":"952553743","indices":[3,16]},{"screen_name":"jruby","name":"JRuby
+        Dev Team","id":16132186,"id_str":"16132186","indices":[30,36]}]},"favorited":false,"retweeted":true,"possibly_sensitive":false,"lang":"en"},{"created_at":"Sun
+        Jul 13 16:35:27 +0000 2014","id":488361072119009280,"id_str":"488361072119009280","text":"@ChrisGSeaton
+        @tom_enebo @jruby this is not possible :d","source":"\u003ca href=\"http:\/\/twitter.com\"
+        rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":487257276794032128,"in_reply_to_status_id_str":"487257276794032128","in_reply_to_user_id":952553743,"in_reply_to_user_id_str":"952553743","in_reply_to_screen_name":"ChrisGSeaton","user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"ChrisGSeaton","name":"Chris
+        Seaton","id":952553743,"id_str":"952553743","indices":[0,13]},{"screen_name":"tom_enebo","name":"tom_enebo","id":14498747,"id_str":"14498747","indices":[14,24]},{"screen_name":"jruby","name":"JRuby
+        Dev Team","id":16132186,"id_str":"16132186","indices":[25,31]}]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Sat
+        Jul 12 19:43:42 +0000 2014","id":488046060284436480,"id_str":"488046060284436480","text":"https:\/\/t.co\/RvDMhNWlJe\nyes!","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"https:\/\/t.co\/RvDMhNWlJe","expanded_url":"https:\/\/twitter.com\/dispatch.cgi","display_url":"twitter.com\/dispatch.cgi","indices":[0,23]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"und"},{"created_at":"Fri
+        Jul 11 18:11:19 +0000 2014","id":487660420057296896,"id_str":"487660420057296896","text":"I''m
+        gearing up for the #WorldCup. Who are you supporting? https:\/\/t.co\/0Tj7qyXDon","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"WorldCup","indices":[23,32]}],"symbols":[],"urls":[{"url":"https:\/\/t.co\/0Tj7qyXDon","expanded_url":"https:\/\/twitter.com\/i\/t\/worldcup","display_url":"twitter.com\/i\/t\/worldcup","indices":[58,81]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
+    http_version: 
+  recorded_at: Wed, 13 Aug 2014 15:10:46 GMT
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/statuses/user_timeline.json?claudiuinberlin
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - OAuth gem v0.4.7
+      Authorization:
+      - OAuth oauth_consumer_key="xtjmMFyBbB2jvM35YDjtu7D1I", oauth_nonce="3jVn4CczXYehpNtieal5d1qSl6XvoPPIGdqPOKikw",
+        oauth_signature="UCBJp2BNkBzDldK6%2BLx9ZtggTfc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1407942646", oauth_token="2617802185-94zZikE7dVDlPBN7beFhngn4t4IkClEeUkflVht",
+        oauth_version="1.0"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Content-Length:
+      - '2339'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Wed, 13 Aug 2014 15:10:47 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Wed, 13 Aug 2014 15:10:47 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tfe
+      Set-Cookie:
+      - guest_id=v1%3A140794264724805102; Domain=.twitter.com; Path=/; Expires=Fri,
+        12-Aug-2016 15:10:47 UTC
+      - lang=en
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '180'
+      X-Rate-Limit-Remaining:
+      - '178'
+      X-Rate-Limit-Reset:
+      - '1407943546'
+      X-Transaction:
+      - 173c5cadf9e2aa45
+      X-Xss-Protection:
+      - 1; mode=block
+    body:
+      encoding: UTF-8
+      string: '[{"created_at":"Wed Aug 13 12:50:30 +0000 2014","id":499538484856905728,"id_str":"499538484856905728","text":"offf
+        twitter....\nbyebug) response.body\n\"\u007b\\\"errors\\\":[\u007b\\\"message\\\":\\\"Rate
+        limit exceeded\\\",\\\"code\\\":88\u007d]\u007d\". you make me mock it :\/","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Fri
+        Aug 08 23:35:35 +0000 2014","id":497888887663247360,"id_str":"497888887663247360","text":"http:\/\/t.co\/MNv32DelLp","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"http:\/\/t.co\/MNv32DelLp","expanded_url":"http:\/\/rails-hosting.com\/Results\/2014\/index.html","display_url":"rails-hosting.com\/Results\/2014\/i\u2026","indices":[0,22]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"und"},{"created_at":"Fri
+        Aug 08 23:13:52 +0000 2014","id":497883419976945665,"id_str":"497883419976945665","text":"!    Unable
+        to connect to @heroku API, please check internet connectivity and try again.
+        #IHATEIT","source":"\u003ca href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter
+        Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"IHATEIT","indices":[89,97]}],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"heroku","name":"Heroku","id":10257182,"id_str":"10257182","indices":[26,33]}]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Sun
+        Jul 13 17:09:51 +0000 2014","id":488369728269058048,"id_str":"488369728269058048","text":"RT
+        @ChrisGSeaton: How we make @JRuby up to 28x as fast on real-world code with
+        #Truffle http:\/\/t.co\/svBI59T7lY","source":"\u003ca href=\"http:\/\/twitter.com\"
+        rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweeted_status":{"created_at":"Thu
+        Jul 10 15:29:22 +0000 2014","id":487257276794032128,"id_str":"487257276794032128","text":"How
+        we make @JRuby up to 28x as fast on real-world code with #Truffle http:\/\/t.co\/svBI59T7lY","source":"\u003ca
+        href=\"http:\/\/itunes.apple.com\/us\/app\/twitter\/id409789998?mt=12\" rel=\"nofollow\"\u003eTwitter
+        for Mac\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":952553743,"id_str":"952553743","name":"Chris
+        Seaton","screen_name":"ChrisGSeaton","location":"Manchester, UK","description":"PhD
+        student in languages and parallelism. Oracle Labs VM Research Group. Developer
+        of the first regulated medical phone app in the UK. Opinions are my own.","url":"http:\/\/t.co\/PvELBCnCCZ","entities":{"url":{"urls":[{"url":"http:\/\/t.co\/PvELBCnCCZ","expanded_url":"http:\/\/www.chrisseaton.com","display_url":"chrisseaton.com","indices":[0,22]}]},"description":{"urls":[]}},"protected":false,"followers_count":264,"friends_count":251,"listed_count":12,"created_at":"Fri
+        Nov 16 22:50:49 +0000 2012","favourites_count":3,"utc_offset":-25200,"time_zone":"Pacific
+        Time (US & Canada)","geo_enabled":true,"verified":false,"statuses_count":314,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/2858052559\/0cc0340ddc35aa9beb5b4f8fc493f1f4_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/2858052559\/0cc0340ddc35aa9beb5b4f8fc493f1f4_normal.jpeg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/952553743\/1398650922","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":true,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":62,"favorite_count":24,"entities":{"hashtags":[{"text":"Truffle","indices":[61,69]}],"symbols":[],"urls":[{"url":"http:\/\/t.co\/svBI59T7lY","expanded_url":"http:\/\/www.chrisseaton.com\/rubytruffle\/pushing-pixels\/","display_url":"chrisseaton.com\/rubytruffle\/pu\u2026","indices":[70,92]}],"user_mentions":[{"screen_name":"jruby","name":"JRuby
+        Dev Team","id":16132186,"id_str":"16132186","indices":[12,18]}]},"favorited":false,"retweeted":true,"possibly_sensitive":false,"lang":"en"},"retweet_count":62,"favorite_count":0,"entities":{"hashtags":[{"text":"Truffle","indices":[79,87]}],"symbols":[],"urls":[{"url":"http:\/\/t.co\/svBI59T7lY","expanded_url":"http:\/\/www.chrisseaton.com\/rubytruffle\/pushing-pixels\/","display_url":"chrisseaton.com\/rubytruffle\/pu\u2026","indices":[88,110]}],"user_mentions":[{"screen_name":"ChrisGSeaton","name":"Chris
+        Seaton","id":952553743,"id_str":"952553743","indices":[3,16]},{"screen_name":"jruby","name":"JRuby
+        Dev Team","id":16132186,"id_str":"16132186","indices":[30,36]}]},"favorited":false,"retweeted":true,"possibly_sensitive":false,"lang":"en"},{"created_at":"Sun
+        Jul 13 16:35:27 +0000 2014","id":488361072119009280,"id_str":"488361072119009280","text":"@ChrisGSeaton
+        @tom_enebo @jruby this is not possible :d","source":"\u003ca href=\"http:\/\/twitter.com\"
+        rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":487257276794032128,"in_reply_to_status_id_str":"487257276794032128","in_reply_to_user_id":952553743,"in_reply_to_user_id_str":"952553743","in_reply_to_screen_name":"ChrisGSeaton","user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[],"user_mentions":[{"screen_name":"ChrisGSeaton","name":"Chris
+        Seaton","id":952553743,"id_str":"952553743","indices":[0,13]},{"screen_name":"tom_enebo","name":"tom_enebo","id":14498747,"id_str":"14498747","indices":[14,24]},{"screen_name":"jruby","name":"JRuby
+        Dev Team","id":16132186,"id_str":"16132186","indices":[25,31]}]},"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Sat
+        Jul 12 19:43:42 +0000 2014","id":488046060284436480,"id_str":"488046060284436480","text":"https:\/\/t.co\/RvDMhNWlJe\nyes!","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[],"symbols":[],"urls":[{"url":"https:\/\/t.co\/RvDMhNWlJe","expanded_url":"https:\/\/twitter.com\/dispatch.cgi","display_url":"twitter.com\/dispatch.cgi","indices":[0,23]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"und"},{"created_at":"Fri
+        Jul 11 18:11:19 +0000 2014","id":487660420057296896,"id_str":"487660420057296896","text":"I''m
+        gearing up for the #WorldCup. Who are you supporting? https:\/\/t.co\/0Tj7qyXDon","source":"\u003ca
+        href=\"http:\/\/twitter.com\" rel=\"nofollow\"\u003eTwitter Web Client\u003c\/a\u003e","truncated":false,"in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2617802185,"id_str":"2617802185","name":"claudiu","screen_name":"claudiuinberlin","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":7,"friends_count":91,"listed_count":0,"created_at":"Fri
+        Jul 11 18:10:41 +0000 2014","favourites_count":2,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":7,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"C0DEED","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/495517306798080001\/HcwWOZb2_normal.jpeg","profile_link_color":"0084B4","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"default_profile":true,"default_profile_image":false,"following":false,"follow_request_sent":false,"notifications":false},"geo":null,"coordinates":null,"place":null,"contributors":null,"retweet_count":0,"favorite_count":0,"entities":{"hashtags":[{"text":"WorldCup","indices":[23,32]}],"symbols":[],"urls":[{"url":"https:\/\/t.co\/0Tj7qyXDon","expanded_url":"https:\/\/twitter.com\/i\/t\/worldcup","display_url":"twitter.com\/i\/t\/worldcup","indices":[58,81]}],"user_mentions":[]},"favorited":false,"retweeted":false,"possibly_sensitive":false,"lang":"en"}]'
+    http_version: 
+  recorded_at: Wed, 13 Aug 2014 15:10:47 GMT
+recorded_with: VCR 2.9.2
